@@ -1,0 +1,59 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.group {
+  background-image: url("/assets/fondo pruebas.jpg");
+  background-size: 100% 100%;
+  position: relative;
+  width: 1465px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.slider {
+  left: 169.0000233308447px;
+  top: 72.1433547088314px;
+  position: absolute;
+  width: 1102px;
+  height: max-content;
+  min-width: 50px;
+}
+.icon {
+  font-size: 48px;
+  width: 48px;
+  height: 48px;
+  color: hsla(var(--igx-primary-900));
+  left: 510.66666666666595px;
+  top: 70.66666666666677px;
+  position: absolute;
+}
+.icon_1 {
+  font-size: 48px;
+  width: 48px;
+  height: 48px;
+  color: hsla(var(--igx-success-500));
+  left: 144.0000000000021px;
+  top: 70.66666666666677px;
+  position: absolute;
+}
+.icon_2 {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: hsla(var(--igx-surface-500));
+  left: 522.6666666666669px;
+  top: 82.66666666666659px;
+  position: absolute;
+}
+.icon_3 {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: hsla(var(--igx-surface-500));
+  left: 156.00000000000287px;
+  top: 82.66666666666659px;
+  position: absolute;
+}
