@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HistorialComponent } from './historial.component';
+import { MasterView2Component } from './master-view2.component';
 
-describe('HistorialComponent', () => {
-  let component: HistorialComponent;
-  let fixture: ComponentFixture<HistorialComponent>;
+describe('MasterView2Component', () => {
+  let component: MasterView2Component;
+  let fixture: ComponentFixture<MasterView2Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ HistorialComponent ]
+      declarations: [ MasterView2Component ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HistorialComponent);
+    fixture = TestBed.createComponent(MasterView2Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

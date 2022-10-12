@@ -3,17 +3,17 @@ import { CommonModule } from '@angular/common';
 
 import { MasterViewRoutingModule } from './master-view-routing.module';
 import { MasterViewComponent } from './master-view.component';
-import { TramiteDeCreditoComponent } from './tramite-de-credito/tramite-de-credito.component';
-import { IgxSliderModule, IgxInputGroupModule, IgxSelectModule, IgxIconModule, IgxButtonModule, IgxRippleModule, IgxNavbarModule, IgxToggleModule, IgxNavigationDrawerModule } from 'igniteui-angular';
-import { FormsModule } from '@angular/forms';
+import { TramiteDeCreditoINICIOComponent } from './tramite-de-credito-inicio/tramite-de-credito-inicio.component';
 import { ExpedienteComponent } from './expediente/expediente.component';
 import { HistorialComponent } from './historial/historial.component';
 import { SoporteComponent } from './soporte/soporte.component';
+import { IgxNavbarModule, IgxButtonModule, IgxRippleModule, IgxToggleModule, IgxIconModule, IgxNavigationDrawerModule } from 'igniteui-angular';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     MasterViewComponent,
-    TramiteDeCreditoComponent,
+    TramiteDeCreditoINICIOComponent,
     ExpedienteComponent,
     HistorialComponent,
     SoporteComponent
@@ -21,16 +21,13 @@ import { SoporteComponent } from './soporte/soporte.component';
   imports: [
     CommonModule,
     MasterViewRoutingModule,
-    IgxSliderModule,
-    IgxInputGroupModule,
-    IgxSelectModule,
-    IgxIconModule,
+    IgxNavbarModule,
     IgxButtonModule,
     IgxRippleModule,
-    FormsModule,
-    IgxNavbarModule,
     IgxToggleModule,
-    IgxNavigationDrawerModule
+    IgxIconModule,
+    IgxNavigationDrawerModule,
+    FormsModule
   ]
 })
 export class MasterViewModule {
