@@ -1,8 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { FormsModule } from '@angular/forms';
-import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 
-import { IgxSliderModule, IgxIconModule } from 'igniteui-angular';
 import { SoporteComponent } from './soporte.component';
 
 describe('SoporteComponent', () => {
@@ -11,8 +8,7 @@ describe('SoporteComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SoporteComponent ],
-      imports: [ NoopAnimationsModule, FormsModule, IgxSliderModule, IgxIconModule ]
+      declarations: [ SoporteComponent ]
     })
     .compileComponents();
   });
